@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --gray: hsl(0, 0%, 50%); }
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow); }
+  main .card {
+    background-color: #fff;
+    display: flex;
+    width: 378px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 7px 7px; }
+    main .card .subcard {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 336px;
+      height: 450px;
+      margin: 12px 24px; }
+      main .card .subcard img {
+        border-radius: 12px; }
+      main .card .subcard .tag {
+        width: 80px;
+        background-color: var(--yellow);
+        text-align: center;
+        border-radius: 5px;
+        padding: 4px;
+        font-size: 14px;
+        font-weight: 700; }
+      main .card .subcard .published-on {
+        font-size: 14px;
+        font-weight: 500; }
+      main .card .subcard .description {
+        color: var(--gray);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25; }
+      main .card .subcard .author {
+        display: flex;
+        align-items: center; }
+        main .card .subcard .author .author-picture {
+          display: inline-block;
+          background: url("assets/images/image-avatar.webp");
+          background-repeat: no-repeat;
+          background-size: 32px 32px;
+          width: 32px;
+          height: 32px;
+          margin-right: 12px; }
+        main .card .subcard .author .author-name {
+          font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
